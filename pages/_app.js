@@ -1,7 +1,9 @@
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function BridgingTheGap({ Component, pageProps }) {
+  const getLayout = Component.getLayout || ((page) => page)
+
+  return getLayout(<Component {...pageProps} />)
 }
 
-export default MyApp
+export default BridgingTheGap
