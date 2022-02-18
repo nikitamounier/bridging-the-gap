@@ -1,4 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 export default async function registerStudent(req, res) {
     const hook = process.env.API_URL
     try {
@@ -10,9 +9,6 @@ export default async function registerStudent(req, res) {
         method: 'POST'
         },
       )
-      
-      const data = await response.text()
-      console.log(data)
 
       if (!response.ok) {
         return res.status(500).json({"message": "server failure"})
