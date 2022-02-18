@@ -34,6 +34,7 @@ export default function Layout({ isHome, child }) {
                                             <Image
                                                 layout="fill"
                                                 src={logo}
+                                                alt="Logo"
                                             />
                                         </div>
                                         <div className="-mr-2 flex items-center md:hidden">

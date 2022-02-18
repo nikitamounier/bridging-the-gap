@@ -199,7 +199,7 @@ export default function Team() {
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl pb-10">Our Team</h2>
                 <div className="grid grid-cols-1 gap-y-20 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                     {people.map((person) => (
-                        <div className='pb-5'>
+                        <div className='pb-5' key={person.id}>
                             <div className="w-full h-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                                 <Image
                                     src={person.image}
