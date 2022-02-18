@@ -49,7 +49,7 @@ function Courses() {
                     </li>
                 </ol>
             </nav>
-            <div className="max-w-2xl mx-auto px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+            <div className="max-w-2xl mx-auto pt-10 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:pt-16 lg:pb-24 lg:px-8 grid items-center grid-cols-1 gap-y-4 gap-x-8 lg:grid-cols-2">
                 <div>
                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Our Courses</h2>
                     <p className="mt-4 text-gray-500 lg:pb-24">

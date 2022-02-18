@@ -200,7 +200,8 @@ function SignUp() {
                         </li>
                     </ol>
                 </nav>
-                <div className="mt-10 sm:mt-0 max-w-2xl mx-auto py-16 px-4 sm:py-12 sm:px-6 lg:max-w-7xl lg:px-8">
+                <div className="max-w-2xl mx-auto pt-10 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:pt-16 lg:pb-24 lg:px-8">
+                    <h2 className="text-3xl font-extrabold tracking-tight pb-5 text-gray-900 sm:text-4xl">Sign Up</h2>
                     <div className="md:grid md:grid-cols-3 md:gap-6">
                         <div className="md:col-span-1">
                             <div className="px-4 sm:px-0">
