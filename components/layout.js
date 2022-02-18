@@ -116,7 +116,7 @@ export default function Layout({ isHome, child }) {
                                         </div>
                                     </div>
                                     <div className="px-2 pt-2 pb-3 space-y-1">
-                                        <Popover.Button>
+                                        <Popover.Button className='w-full text-left'>
                                             <Link href="/">
                                                 <a className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-50 text-green-600 hover:text-green-500">
                                                     Home
@@ -124,29 +124,45 @@ export default function Layout({ isHome, child }) {
                                             </Link>
                                         </Popover.Button>
 
-                                        <Link href="/mission">
-                                            <a className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-50 text-green-600 hover:text-green-500">
-                                                Mission
-                                            </a>
-                                        </Link>
+                                        <Popover.Button className='w-full text-left'>
+                                            <Link href="/mission">
+                                                <a className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-50 text-green-600 hover:text-green-500">
+                                                    Mission
+                                                </a>
+                                            </Link>
+                                        </Popover.Button>
 
-                                        <Link href="/courses">
-                                            <a className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-50 text-green-600 hover:text-green-500">
-                                                Courses
-                                            </a>
-                                        </Link>
+                                        <Popover.Button className='w-full text-left'>
+                                            <Link href="/courses">
+                                                <a className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-50 text-green-600 hover:text-green-500">
+                                                    Courses
+                                                </a>
+                                            </Link>
+                                        </Popover.Button>
 
-                                        <Link href="/team">
-                                            <a className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-50 text-green-600 hover:text-green-500">
-                                                Team
-                                            </a>
-                                        </Link>
+                                        <Popover.Button className='w-full text-left'>
+                                            <Link href="/team">
+                                                <a className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-50 text-green-600 hover:text-green-500">
+                                                    Team
+                                                </a>
+                                            </Link>
+                                        </Popover.Button>
 
-                                        <Link href="/signup">
-                                            <a className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-50 text-green-600 hover:text-green-500">
-                                                Contact Us
-                                            </a>
-                                        </Link>
+                                        <Popover.Button className='w-full text-left'>
+                                            <Link href="/signup">
+                                                <a className="block w-full px-3 py-2 rounded-md text-base font-medium hover:bg-gray-50 text-green-600 hover:text-green-500">
+                                                    Sign Up
+                                                </a>
+                                            </Link>
+                                        </Popover.Button>
+
+                                        <Popover.Button className='w-full text-left'>
+                                            <Link href="mailto:raphael.bendor@eleve.lyceefrancais.org.uk?subject=Express of interest in Bridging the Gap">
+                                                <a className="block w-full px-3 py-2 rounded-md text-base font-medium hover:bg-gray-50 text-green-600 hover:text-green-500">
+                                                    Contact Us
+                                                </a>
+                                            </Link>
+                                        </Popover.Button>
                                     </div>
                                 </div>
                             </Popover.Panel>
@@ -156,7 +172,7 @@ export default function Layout({ isHome, child }) {
                 </div>
             </div>
             {isHome && <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-                <div className="h-56 w-full sm:h-72 md:h-96 lg:w-full lg:h-full">
+                <div className="h-56 w-full sm:h-72 md:h-96 lg:w-full lg:h-full relative">
                     <Image
                         src={frontImage}
                         objectFit="cover"
