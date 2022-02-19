@@ -10,7 +10,7 @@ function Home() {
           <span className="block text-green-600 xl:inline">We want to help!</span>
         </h1>
         <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-          We are a charity aiming to help Year 11s in the borough of Kensington and Chelsea who were affected by online school - whether they want to catch up on
+          We are a charity aiming to help Year 10s in the borough of Kensington and Chelsea who were affected by online school - whether they want to catch up on
           some maths or learn to code, we will be there for your child!
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
