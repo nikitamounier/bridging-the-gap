@@ -3,11 +3,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 import raph from "../public/team/raph.jpg"
-// import ghassan from "../public/team/ghassan.jpg"
+import ghassan from "../public/team/ghassan.jpg"
 import nikita from "../public/team/nikita.jpg"
 import drevon from "../public/team/drevon.jpg"
 // import kiara from "../public/team/kiara.jpg"
-// import thomas from "../public/team/thomas.jpg"
+import thomas from "../public/team/thomas.jpg"
 import ryan from "../public/team/ryan.jpg"
 import alizee from "../public/team/alizee.jpg"
 import josephine from "../public/team/josephine.jpg"
@@ -16,7 +16,7 @@ import rebecca from "../public/team/rebecca.jpg"
 import kira from "../public/team/kira.jpg"
 import satine from "../public/team/satine.jpg"
 import yara from "../public/team/yara.jpg"
-// import come from "../public/team/come.jpg"
+import come from "../public/team/come.jpg"
 import matteo from "../public/team/matteo.jpg"
 import alexandre from "../public/team/alex.jpg"
 
@@ -27,12 +27,12 @@ const people = [
         name: "Raphael Bendor",
         image: raph
     },
-    // {
-    //     id: "2",
-    //     course: "Head of Maths, Computer Science",
-    //     name: "Ghassan Al Halabi",
-    //     image: ghassan
-    // },
+    {
+        id: "2",
+        course: "Head of Maths, Computer Science",
+        name: "Ghassan Al Halabi",
+        image: ghassan
+    },
     {
         id: "3",
         course: "Head of Computer Science",
@@ -87,12 +87,12 @@ const people = [
         name: "Kira Davidoff",
         image: kira
     },
-    // {
-    //     id: "12",
-    //     course: "French",
-    //     name: "Thomas Valentin",
-    //     image: thomas
-    // },
+    {
+        id: "12",
+        course: "French",
+        name: "Thomas Valentin",
+        image: thomas
+    },
     {
         id: "13",
         course: "Maths",
@@ -105,12 +105,12 @@ const people = [
         name: "Yara Flitti",
         image: yara
     },
-    // {
-    //     id: "15",
-    //     course: "French",
-    //     name: "Côme Bareau",
-    //     image: come
-    // },
+    {
+        id: "15",
+        course: "French",
+        name: "Côme Bareau",
+        image: come
+    },
     {
         id: "16",
         course: "English",
