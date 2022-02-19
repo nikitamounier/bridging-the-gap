@@ -23,7 +23,7 @@ import alexandre from "../public/team/alex.jpg"
 const people = [
     {
         id: "1",
-        course: "Founder / Head of french",
+        course: "Founder, Head of french",
         name: "Raphael Bendor",
         image: raph
     },
