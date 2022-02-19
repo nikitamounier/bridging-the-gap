@@ -15,8 +15,8 @@ export default function Layout({ isHome, child }) {
             <Head>
                 <title> Bridging the Gap: free tutoring for Kensington and Chelsea </title>
                 <meta name="theme-color" media = "(prefers-color-scheme: dark)" content="#2d6e32"/>
-                <meta property="description" content = "We supply free tutoring to Year 11s in Kensington and Chelsea in Maths, English, Programming, and French." />
-                <meta property="keywords" content = "charity, tutoring, free, kensington, coding" />
+                <meta name="description" content = "We supply free tutoring to Year 11s in Kensington and Chelsea in Maths, English, Programming, and French." />
+                <meta name="keywords" content = "charity, tutoring, free, kensington, coding" />
             </Head>
             <main className="relative bg-white overflow-hidden">
                 <div className="max-w-7xl mx-auto">
