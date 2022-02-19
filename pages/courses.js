@@ -54,7 +54,7 @@ function Courses() {
                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Our Courses</h2>
                     <p className="mt-4 text-gray-500 lg:pb-24">
                         We offer three core courses, made to solidify their foundations and fill in what they may have missed during lockdowns.
-                        We also offer a special course - Computer Science - for those who are interested in programming and want to maximise their opportunities in the future.
+                        We also offer a supplementary course - Computer Science - for those who are interested in programming and want to maximise their opportunities in the future.
                     </p>
 
                     <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
@@ -72,6 +72,7 @@ function Courses() {
                             src={maths}
                             alt="Maths"
                             layout="fill"
+                            objectFit='cover'
                             placeholder='blur'
                         />
                     </div>
@@ -80,6 +81,7 @@ function Courses() {
                             src={english}
                             alt="English"
                             layout="fill"
+                            objectFit='cover'
                             placeholder='blur'
                         />
                     </div>
@@ -88,6 +90,7 @@ function Courses() {
                             src={french}
                             alt="French"
                             layout="fill"
+                            objectFit='cover'
                             placeholder='blur'
                         />
                     </div>
@@ -96,6 +99,7 @@ function Courses() {
                             src={coding}
                             alt="Computer Science"
                             layout="fill"
+                            objectFit='cover'
                             placeholder='blur'
                         />
                     </div>

@@ -84,7 +84,7 @@ export default function Layout({ isHome, child }) {
                                             </a>
                                         </Link>
 
-                                        <Link href="mailto:raphael.bendor@eleve.lyceefrancais.org.uk?subject=Express of interest in Bridging the Gap">
+                                        <Link href="mailto:contact@bridgingthegap.charity?subject=Express of interest in Bridging the Gap">
                                             <a className="font-medium text-green-600 hover:text-green-500">
                                                 Contact Us
                                             </a>

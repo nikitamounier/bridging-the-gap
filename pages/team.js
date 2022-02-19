@@ -18,11 +18,6 @@ import satine from "../public/team/satine.jpg"
 import yara from "../public/team/yara.jpg"
 // import come from "../public/team/come.jpg"
 import matteo from "../public/team/matteo.jpg"
-import alexis from "../public/team/alexis.jpg"
-import charlotte from "../public/team/charlotte.jpg"
-import thibault from "../public/team/thibault.jpg"
-import elsa from "../public/team/elsa.jpg"
-import adam from "../public/team/adam.jpg"
 import alexandre from "../public/team/alex.jpg"
 
 const people = [
@@ -34,7 +29,7 @@ const people = [
     },
     // {
     //     id: "2",
-    //     course: "Head of Maths",
+    //     course: "Head of Maths, Computer Science",
     //     name: "Ghassan Al Halabi",
     //     image: ghassan
     // },
@@ -121,36 +116,6 @@ const people = [
         course: "English",
         name: "Matteo Maffre",
         image: matteo
-    },
-    {
-        id: "17",
-        course: "Maths",
-        name: "Alexis Aber",
-        image: alexis
-    },
-    {
-        id: "18",
-        course: "French",
-        name: "Charlotte Langlois",
-        image: charlotte
-    },
-    {
-        id: "19",
-        course: "Maths",
-        name: "Thibault Riviere",
-        image: thibault
-    },
-    {
-        id: "20",
-        course: "French",
-        name: "Elsa Josserand",
-        image: elsa
-    },
-    {
-        id: "21",
-        course: "Maths",
-        name: "Adam Renard",
-        image: adam
     },
     {
         id: "22",

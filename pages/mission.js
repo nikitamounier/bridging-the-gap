@@ -52,9 +52,9 @@ function Mission() {
                     <h2 className = "text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Our Mission</h2>
                 </div>
 
-                {/* Map */}
+                {/* Library */}
                 <div className = "mt-4 lg:mt-0 lg:row-span-3">
-                    <h2 className = "sr-only">Map</h2>
+                    <h2 className = "sr-only">Library</h2>
                     <div className = "aspect-w-3 aspect-h-2 rounded-lg overflow-hidden w-full h-full relative">
                         <Image
                             src={library}
@@ -84,24 +84,10 @@ function Mission() {
                     </div>
 
                     <div className = "mt-10">
-                        <h3 className = "text-2xl font-medium text-gray-900">Our aims</h3>
-
-                        <div className = "mt-4">
-                            <ul role="list" className = "pl-4 list-disc space-y-2">
-                                {targets.map((target) => (
-                                    <li key={target} className = "text-gray-400">
-                                        <span className = "text-gray-600">{target}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div className = "mt-10">
-                        <h2 className = "text-xl font-medium text-gray-900">Format</h2>
+                        <h2 className = "text-3xl font-medium text-gray-900">Format</h2>
 
                         <div className = "mt-4 space-y-6">
-                            <p className = " text-gray-600">
+                            <p className = "text-xl text-gray-900">
                                 We hold two sessions a week in the North Kensington library, teaching a wide variety of topics. Check out {" "}
                                 <Link href = "/courses">
                                     <a  className = "text-blue-800 underline underline-offset-2">our courses</a>
@@ -113,6 +99,21 @@ function Mission() {
                             </p>
                         </div>
                     </div>
+
+                    <div className = "mt-10">
+                        <h2 className = "text-3xl font-medium text-gray-900">Our aims</h2>
+
+                        <div className = "mt-4">
+                            <ul role="list" className = "pl-4 list-disc space-y-2">
+                                {targets.map((target) => (
+                                    <li key={target} className = "text-gray-400">
+                                        <span className = "text-xl text-gray-600">{target}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
