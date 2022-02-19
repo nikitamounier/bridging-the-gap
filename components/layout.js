@@ -165,7 +165,7 @@ export default function Layout({ isHome, child }) {
                                             </Popover.Button>
 
                                             <Popover.Button className='w-full text-left'>
-                                                <Link href="mailto:raphael.bendor@eleve.lyceefrancais.org.uk?subject=Express of interest in Bridging the Gap">
+                                                <Link href="mailto:contact@bridgingthegap.charity?subject=Express of interest in Bridging the Gap">
                                                     <a className="block w-full px-3 py-2 rounded-md text-base font-medium hover:bg-gray-50 text-green-600 hover:text-green-500">
                                                         Contact Us
                                                     </a>

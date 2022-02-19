@@ -22,25 +22,25 @@ import alexandre from "../public/team/alex.jpg"
 
 const people = [
     {
-        id: "1",
-        course: "Founder, Head of french",
+        id: 1,
+        course: "Founder / Head of French",
         name: "Raphael Bendor",
         image: raph
     },
     {
-        id: "2",
-        course: "Head of Maths, Computer Science",
-        name: "Ghassan Al Halabi",
-        image: ghassan
-    },
-    {
-        id: "3",
+        id: 2,
         course: "Head of Computer Science",
         name: "Nikita Mounier",
         image: nikita
     },
     {
-        id: "4",
+        id: 3,
+        course: "Head of Maths / Computer Science",
+        name: "Ghassan Al Halabi",
+        image: ghassan
+    },
+    {
+        id: 4,
         course: "Head of English",
         name: "Raphael Drevon",
         image: drevon
@@ -52,73 +52,73 @@ const people = [
     //     image: kiara
     // },
     {
-        id: "6",
+        id: 6,
         course: "Computer Science",
         name: "Ryan Ghoussainy",
         image: ryan
     },
     {
-        id: "7",
+        id: 7,
         course: "French",
         name: "Alizee Nasr",
         image: alizee
     },
     {
-        id: "8",
+        id: 8,
         course: "English",
         name: "Josephine Rippon",
         image: josephine
     },
     {
-        id: "9",
+        id: 9,
         course: "Maths",
         name: "Omar Hauser",
         image: omar
     },
     {
-        id: "10",
+        id: 10,
         course: "French",
         name: "Rebecca Astaix",
         image: rebecca
     },
     {
-        id: "11",
+        id: 11,
         course: "Maths",
         name: "Kira Davidoff",
         image: kira
     },
     {
-        id: "12",
+        id: 12,
         course: "French",
         name: "Thomas Valentin",
         image: thomas
     },
     {
-        id: "13",
+        id: 13,
         course: "Maths",
         name: "Satine Szwarc-Patel",
         image: satine
     },
     {
-        id: "14",
+        id: 14,
         course: "Maths",
         name: "Yara Flitti",
         image: yara
     },
     {
-        id: "15",
+        id: 15,
         course: "French",
         name: "Côme Bareau",
         image: come
     },
     {
-        id: "16",
+        id: 16,
         course: "English",
         name: "Matteo Maffre",
         image: matteo
     },
     {
-        id: "22",
+        id: 17,
         course: "English",
         name: "Alexander De Mahieu",
         image: alexandre

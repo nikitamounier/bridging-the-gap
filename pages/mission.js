@@ -55,13 +55,11 @@ function Mission() {
                 {/* Library */}
                 <div className = "mt-4 lg:mt-0 lg:row-span-3">
                     <h2 className = "sr-only">Library</h2>
-                    <div className = "aspect-w-3 aspect-h-2 rounded-lg overflow-hidden w-full h-full relative">
+                    <div className = "rounded-lg overflow-hidden relative">
                         <Image
                             src={library}
                             alt="North Kensington Library covered in butterflies"
-                            objectPosition="center"
-                            objectFit='cover'
-                            layout="fill"
+                            layout="responsive"
                             placeholder='blur'
                         />
                     </div>
