@@ -17,6 +17,7 @@ import kira from "../public/team/kira.jpg"
 import satine from "../public/team/satine.jpg"
 import yara from "../public/team/yara.jpg"
 import come from "../public/team/come.jpg"
+import salome from "../public/team/salome.jpg"
 import matteo from "../public/team/matteo.jpg"
 import alexandre from "../public/team/alex.jpg"
 
@@ -59,9 +60,9 @@ const people = [
     },
     {
         id: 7,
-        course: "French",
-        name: "Alizee Nasr",
-        image: alizee
+        course: "English",
+        name: "Salome Boissel",
+        image: salome
     },
     {
         id: 8,
@@ -113,12 +114,18 @@ const people = [
     },
     {
         id: 16,
+        course: "French",
+        name: "Alizee Nasr",
+        image: alizee
+    },
+    {
+        id: 17,
         course: "English",
         name: "Matteo Maffre",
         image: matteo
     },
     {
-        id: 17,
+        id: 18,
         course: "English",
         name: "Alexander De Mahieu",
         image: alexandre
