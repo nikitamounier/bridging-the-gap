@@ -30,7 +30,7 @@ const people = [
     },
     {
         id: 2,
-        course: "Head of Computer Science (made website)",
+        course: "Co-founder / Head of Computer Science (made website)",
         name: "Nikita Mounier",
         image: nikita
     },
